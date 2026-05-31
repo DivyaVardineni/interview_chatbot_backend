@@ -21,7 +21,7 @@ async def questions(req:Request):
 
     prompt=data["prompt"]
     response=client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="model="gemma2-9b-it"",
         messages=[
             {
                "role":"user",
